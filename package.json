@@ -1,0 +1,36 @@
+{
+  "name": "auto-badge",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Connor Love <connor@dotconnor.com>",
+  "license": "MIT",
+  "repository": "https://github.com/a1motion/auto-badge.git",
+  "homepage": "https://github.com/a1motion/auto-badge",
+  "bugs": "https://github.com/a1motion/auto-badge/issues",
+  "keywords": [
+    "github"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "start": "probot run ./index.js"
+  },
+  "dependencies": {
+    "probot": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-a1motion": "^1.1.3",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  }
+}
