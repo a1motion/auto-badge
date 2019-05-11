@@ -1,21 +1,19 @@
 # auto-badge
 
-## Setup
+## Usage
 
-```sh
-# Install dependencies
-yarn
+1. **[Configure the GitHub App](https://github.com/apps/auto-badge)**
+2. Create `.github/badge.yml` based on the following template.
+3. It will listen for pull request changes and auto-label them based on your configuration.
 
-# Run the bot
-yarn start
+```yml
+An object constisting on conventional commit types with either a string or a object based on scopes
+types:
+  fix:
+    ui: 'My UI Fix Label'
+    api: 'API Fixed!'
+    default: 'There was no scope attached'
+  feat: 'I cover all features'
 ```
 
-## Contributing
-
-If you have suggestions for how auto-badge could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
-
-For more, check out the [Contributing Guide](CONTRIBUTING.md).
-
-## License
-
-[MIT](LICENSE) © 2019 A-1 Motion & Design, Inc <connor@a1motion.com>
+> Auto Badge will preserve already existing labels, even if it was the one that created it. This may change in the future.
