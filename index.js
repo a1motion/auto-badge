@@ -31,7 +31,8 @@ module.exports = (app) => {
           label = config.default
         }
         if (label !== null) {
-          const newLabels = Array.from(new Set([...labels, label]))
+          const oldLabels = labels.map((lab) => lab.name)
+          const newLabels = Array.from(new Set([...oldLabels, label]))
           const params = context.issue({ labels: newLabels })
           context.github.issues.addLabels(params)
         }
