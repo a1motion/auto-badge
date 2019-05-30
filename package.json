@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "eslint": "5.16.0",
-    "eslint-config-a1motion": "1.1.3",
+    "eslint-config-a1motion": "1.2.0",
     "nodemon": "1.19.0",
     "smee-client": "1.1.0"
   },

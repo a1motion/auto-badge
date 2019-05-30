@@ -974,10 +974,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-a1motion@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-a1motion/-/eslint-config-a1motion-1.1.3.tgz#873b50112547d73d3ee88f53697afc9d5a23568f"
-  integrity sha512-V0t0XX0u2Lvwf6GBJ08q09L0Yd3oLj+qLJrgW/rgBXqvOcTFgWpxUGIJWSs99OfvtHb6jx87nrMvwCzNDfa4/g==
+eslint-config-a1motion@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-a1motion/-/eslint-config-a1motion-1.2.0.tgz#570378e3a74c550a62edd17abcbc95021300fe48"
+  integrity sha512-Milmp/dx3+ZL3/sEy434ifMAa1fq6Ts3l147e+4t+bCsUQBM66XPprI4O90VLhet2YLXkH0HwTU+KV99OMCxMA==
   dependencies:
     babel-eslint "^10.0.1"
     eslint "^5.12.1"
