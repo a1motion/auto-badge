@@ -994,10 +994,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-a1motion@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-a1motion/-/eslint-config-a1motion-2.0.0.tgz#3ed9961b7c837a105f225f4dd57a341af22417ec"
-  integrity sha512-2hUQHs7RCYjvY/err3p7fsZihWLVFngKEmkswxgTHWEcoNk6nkRKZSUX5M+l4jbQnDzw5+vwXByo/OVJMrBzYw==
+eslint-config-a1motion@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-a1motion/-/eslint-config-a1motion-2.1.1.tgz#2d4a08d49b2271209638fac229b59711218c6448"
+  integrity sha512-bOgrRutJybx/9q+DB0rbEyFci2cZD6SNYVdiTs2yFICcZfI3nzI6IsznVti937tjY/okU1lbldGF0AdbscYRTw==
 
 eslint-config-prettier@^4.3.0:
   version "4.3.0"
