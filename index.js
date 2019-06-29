@@ -5,8 +5,9 @@ module.exports = (app) => {
     [`pull_request.opened`, `pull_request.edited`, `pull_request.synchronize`],
     async (context) => {
       const config = await context.config(`badge.yml`);
+      const { owner, repo } = context.repo();
       if (!config || config === null) {
-        context.log(`No config found, skipping`);
+        context.log(`${owner}/${repo}`, `No config found, skipping`);
         return;
       }
       const {
@@ -31,7 +32,7 @@ module.exports = (app) => {
           label = config.default;
         }
         if (label !== null) {
-          context.log(`Using label:`, label);
+          context.log(`${owner}/${repo}`, `Using label:`, label);
           const oldLabels = labels.map((lab) => lab.name);
           const newLabels = Array.from(new Set([...oldLabels, label]));
           const params = context.issue({ labels: newLabels });
