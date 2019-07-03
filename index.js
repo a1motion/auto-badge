@@ -25,7 +25,7 @@ module.exports = (app) => {
             if (scope && config.types[type][scope]) {
               label = config.types[type][scope];
             } else if (config.types[type].default) {
-              label = config.type[type].default;
+              label = config.types[type].default;
             }
           }
         } else if (config.default) {
