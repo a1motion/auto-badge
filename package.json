@@ -19,7 +19,7 @@
     "probot": "9.2.13"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.12.1",
     "eslint-config-a1motion": "2.0.0",
     "eslint-config-prettier": "^4.3.0",
