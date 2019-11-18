@@ -24,7 +24,7 @@
     "eslint": "^6.5.1",
     "eslint-config-a1motion": "^3.1.0",
     "eslint-config-prettier": "^6.4.0",
-    "eslint-formatter-pretty": "^2.1.1",
+    "eslint-formatter-pretty": "^3.0.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "prettier": "^1.18.2",
