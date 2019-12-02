@@ -21,7 +21,7 @@
   "devDependencies": {
     "@a1motion/nodemon": "^2.0.2",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.5.1",
+    "eslint": "^6.7.2",
     "eslint-config-a1motion": "^3.1.0",
     "eslint-config-prettier": "^6.4.0",
     "eslint-formatter-pretty": "^2.1.1",
