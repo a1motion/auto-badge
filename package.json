@@ -16,7 +16,7 @@
     "lint": "eslint --format=pretty '**/*.js'"
   },
   "dependencies": {
-    "probot": "^9.5.3"
+    "probot": "^9.8.0"
   },
   "devDependencies": {
     "@a1motion/nodemon": "^2.0.2",
